@@ -18,4 +18,6 @@ public interface CarService {
     void updateById(Car car);
 
     void insertCar(Car car);
+
+    List<Car> searchByCarName(Car car);
 }

@@ -7,6 +7,7 @@ public class Car {
     private String carType;
     private String price;
     private String carSeries;
+    private int stock;
 
     public int getId() {
         return id;
@@ -56,6 +57,15 @@ public class Car {
                 ", carType='" + carType + '\'' +
                 ", price='" + price + '\'' +
                 ", carSeries='" + carSeries + '\'' +
+                ", stock='" + stock + '\'' +
                 '}';
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 }
